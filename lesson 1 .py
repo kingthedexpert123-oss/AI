@@ -1,13 +1,12 @@
-print("hello , im your new AI bot !")
+print("hello")
 name=input("what is your name ?")
 print("nice to meet you",name,"!")
-print("how are you feeling today ? (good/bad):")
-mood=input().lower()
+mood=input("how are you ?")
 if mood=="good":
-    print("im glad to hear that !")
+    print("Thats very good!")
 elif mood=="bad":
-    print("im so sorry to hear that , i hoe that things get better")
+    print("i can understand , things will get well and be positive")
 else:
-    print("i understand that")
-print("nice chatting with you")
+    print("im not able to understand that")
+print("okay so bye , have a great time")
 
